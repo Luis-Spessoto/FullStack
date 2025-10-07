@@ -35,26 +35,27 @@ Website criado na matéria Web Fullstack 2025/02 utlizando React.js
 
 ## Estrutura do projeto
 
+```bash
 FullStack/
-├── dist
-├── node_modules/
-├── public/
-│   ├── iconPop.png
-│   ├── MovieCards.png
-│   └── Screenshot.png
-├── src/
-│   ├── API/
-│   │   └── SearchContextAPI.jsx
-│   ├── components/       
-│   │   ├── SearchForm.jsx
-│   │   ├── SearchResult.jsx
-│   │   └── Movie.jsx
-│   ├── App.jsx 
-│   ├── App.css
-│   ├── main.css
-│   └── main.jsx          
-├── index.html     
-├── README.md
-├── package-lock.json
-├── vite.config.js
-└── package.json
+├── dist/                                   #Pasta de deployment ('npm run build')
+├── node_modules/                           #Dependências do projeto (npm install)
+├── public/                                 #Imagens estáticas (favicons, imagens de logo)
+│   ├── iconPop.png                         
+│   ├── MovieCards.png                      
+│   └── Screenshot.png                      
+├── src/                                    #Código-fonte da aplicação 
+│   ├── API/                                #Contém toda a lógica de requisições
+│   │   └── SearchContextAPI.jsx            #Contém o Context API, lógica AJAX e mapeamento de dados da API (OMDb)
+│   ├── components/                         #Componentes reutilizáveis 
+│   │   ├── SearchForm.jsx                  #Formulário de busca e validação (React Hook Form)
+│   │   ├── SearchResult.jsx                #Exibe a lista de filmes, loading e mensagens de erro
+│   │   └── Movie.jsx                       #Renderiza o card individual dos filmes
+│   ├── App.jsx                             #Componente principal (SPA) 
+│   ├── App.css                             
+│   ├── index.css                           #Estilos globais e configurações de fonte
+│   └── main.jsx                            #Ponto de entrada do React (renderiza o App)
+├── index.html                              #Base do HTML e carregamento do Tailwind CSS para estilização local dos componentes
+├── README.md                               
+├── package-lock.json                       
+├── vite.config.js                          
+└── package.json                           
