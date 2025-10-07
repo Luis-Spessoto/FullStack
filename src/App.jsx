@@ -23,7 +23,7 @@ const App = () => {
         
         <header className="text-center mb-10 px-4">
           <h1 className="text-4xl font-extrabold text-black-900 mb-2">
-            FilmSearch - Movie Search Engine
+            FilmSearch - Movie Search Engine 🎞️
           </h1>
           <p className="text-xl text-black font-bold">
             Pesquise filmes na barra abaixo e veja algumas informações
