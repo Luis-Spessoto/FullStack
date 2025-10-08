@@ -27,7 +27,7 @@ const SearchResult = () => {
     return (
       <div className="text-center p-8 mt-8 bg-red-100 border-l-4 border-red-500 rounded-lg max-w-xl mx-auto">
         <p className="text-red-700 font-semibold text-lg">{error}</p>
-        <p className="text-red-600 text-sm mt-2">Tente outra palavra-chave ou verifique sua chave de API.</p>
+        <p className="text-red-600 text-sm mt-2">Nenhum filme encontrado. Tente outra palavra-chave.</p>
       </div>
     );
   }
