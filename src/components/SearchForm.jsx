@@ -2,7 +2,7 @@ import React from 'react';
 // Requisito: Importa a Biblioteca Externa (React Hook Form)
 import { useForm } from 'react-hook-form'; 
 // Importa o hook para acessar a função de busca
-import { useSearchContext } from '../API/SearchContextAPI'; 
+import { useSearchContext } from '../context/SearchContextAPI'; 
 
 // Componente de Formulário de Busca
 const SearchForm = () => {

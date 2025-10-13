@@ -1,6 +1,6 @@
 import React from 'react';
 // Importa o hook para acessar os estados de busca (Comunicação de Componentes)
-import { useSearchContext } from '../API/SearchContextAPI';
+import { useSearchContext } from '../context/SearchContextAPI';
 // Importa o componente que renderiza cada cartão de filme
 import Movie from './Movie';
 

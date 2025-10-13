@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { SearchProvider } from './API/SearchContextAPI'; 
+import { SearchProvider } from './context/SearchContextAPI'; 
 import SearchForm from './components/SearchForm';             
 import SearchResult from './components/SearchResult';         
 
